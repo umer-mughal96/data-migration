@@ -1,0 +1,938 @@
+{
+    "JobId": "yOgAHZ5nljQ8kkjN5avWLlEybJNx836PwvaDSIj6_Go2kCcijmk_1714485758_s",
+    "JobStatus": "Success",
+    "Lines": [
+        {
+            "CharacterConfidence": 96.21,
+            "LinesArray": [
+                {
+                    "Line": "Garden Town Housing Scheme Phase II"
+                },
+                {
+                    "Line": "Account Statement"
+                },
+                {
+                    "Line": "Member Information"
+                },
+                {
+                    "Line": "Registration No:"
+                },
+                {
+                    "Line": "535"
+                },
+                {
+                    "Line": "CNIC No."
+                },
+                {
+                    "Line": "34101-4790134-9"
+                },
+                {
+                    "Line": "Member Name:"
+                },
+                {
+                    "Line": "1. Hafiz Shahzada Hassan Bashir"
+                },
+                {
+                    "Line": "S/O :"
+                },
+                {
+                    "Line": "Bashir Ahmad"
+                },
+                {
+                    "Line": "Address:"
+                },
+                {
+                    "Line": "Mohallah Shahzada Town"
+                },
+                {
+                    "Line": "Jandyala Bagh Wala Gujranwala"
+                },
+                {
+                    "Line": "GUJRANWALA"
+                },
+                {
+                    "Line": "PAKISTAN"
+                },
+                {
+                    "Line": "Mobile , Ph. Off/Res. : 0300-6414915"
+                },
+                {
+                    "Line": "HOUSE Information"
+                },
+                {
+                    "Line": "Block Name:"
+                },
+                {
+                    "Line": "Block C"
+                },
+                {
+                    "Line": "Payment Code:"
+                },
+                {
+                    "Line": "10-MARLA PLOT PHASE-II"
+                },
+                {
+                    "Line": "HOUSE No.:"
+                },
+                {
+                    "Line": "131"
+                },
+                {
+                    "Line": "Street # :"
+                },
+                {
+                    "Line": "Type:"
+                },
+                {
+                    "Line": "-Normal Plot"
+                },
+                {
+                    "Line": "Category & Size:"
+                },
+                {
+                    "Line": "10-M"
+                },
+                {
+                    "Line": "10.00"
+                },
+                {
+                    "Line": "Dimension:"
+                },
+                {
+                    "Line": "34.8X65"
+                },
+                {
+                    "Line": "Booking Date:"
+                },
+                {
+                    "Line": "06/01/2005"
+                },
+                {
+                    "Line": "Payments Detail Net Price :"
+                },
+                {
+                    "Line": "550,000.00"
+                },
+                {
+                    "Line": "Receive Amount :"
+                },
+                {
+                    "Line": "550,000.00"
+                },
+                {
+                    "Line": "Outstanding Amt."
+                },
+                {
+                    "Line": "0.00"
+                },
+                {
+                    "Line": "PDC Amount :"
+                },
+                {
+                    "Line": "0,00"
+                },
+                {
+                    "Line": "Hold Amount :"
+                },
+                {
+                    "Line": "0,00"
+                },
+                {
+                    "Line": "Over Due Amt:"
+                },
+                {
+                    "Line": "0,00"
+                },
+                {
+                    "Line": "Total Received: 100.00"
+                },
+                {
+                    "Line": "%"
+                },
+                {
+                    "Line": "Payment Desc"
+                },
+                {
+                    "Line": "Inst # Due Date"
+                },
+                {
+                    "Line": "Due Amt."
+                },
+                {
+                    "Line": "Rebat Amt"
+                },
+                {
+                    "Line": "Recv. Amt."
+                },
+                {
+                    "Line": "O.S. Amt"
+                },
+                {
+                    "Line": "Recp. No."
+                },
+                {
+                    "Line": "Recp. Amt."
+                },
+                {
+                    "Line": "Date"
+                },
+                {
+                    "Line": "Adj. Amt."
+                },
+                {
+                    "Line": "Booking"
+                },
+                {
+                    "Line": "06/01/2005"
+                },
+                {
+                    "Line": "116,666"
+                },
+                {
+                    "Line": "0"
+                },
+                {
+                    "Line": "116,666"
+                },
+                {
+                    "Line": "0 111450"
+                },
+                {
+                    "Line": "116,666."
+                },
+                {
+                    "Line": "13/04/2005"
+                },
+                {
+                    "Line": "116,666"
+                },
+                {
+                    "Line": "Installment"
+                },
+                {
+                    "Line": "1"
+                },
+                {
+                    "Line": "06/04/2005"
+                },
+                {
+                    "Line": "86,667"
+                },
+                {
+                    "Line": "0"
+                },
+                {
+                    "Line": "86,667"
+                },
+                {
+                    "Line": "0 111451"
+                },
+                {
+                    "Line": "86,666. 13/04/2005"
+                },
+                {
+                    "Line": "86,666"
+                },
+                {
+                    "Line": "0"
+                },
+                {
+                    "Line": "0"
+                },
+                {
+                    "Line": "0"
+                },
+                {
+                    "Line": "111452"
+                },
+                {
+                    "Line": "86,666. 05/07/2005"
+                },
+                {
+                    "Line": "1"
+                },
+                {
+                    "Line": "2"
+                },
+                {
+                    "Line": "06/06/2005"
+                },
+                {
+                    "Line": "86,667"
+                },
+                {
+                    "Line": "0"
+                },
+                {
+                    "Line": "86,667"
+                },
+                {
+                    "Line": "0 111452"
+                },
+                {
+                    "Line": "86,665"
+                },
+                {
+                    "Line": "0"
+                },
+                {
+                    "Line": "0"
+                },
+                {
+                    "Line": "0"
+                },
+                {
+                    "Line": "111453"
+                },
+                {
+                    "Line": "86,666. 05/10/2005"
+                },
+                {
+                    "Line": "2"
+                },
+                {
+                    "Line": "3"
+                },
+                {
+                    "Line": "06/08/2005"
+                },
+                {
+                    "Line": "86,667"
+                },
+                {
+                    "Line": "0"
+                },
+                {
+                    "Line": "86,667"
+                },
+                {
+                    "Line": "0 111453"
+                },
+                {
+                    "Line": "86,664"
+                },
+                {
+                    "Line": "0"
+                },
+                {
+                    "Line": "0"
+                },
+                {
+                    "Line": "0"
+                },
+                {
+                    "Line": "111454"
+                },
+                {
+                    "Line": "86,666. 06/01/2006"
+                },
+                {
+                    "Line": "2"
+                },
+                {
+                    "Line": "4"
+                },
+                {
+                    "Line": "06/10/2005"
+                },
+                {
+                    "Line": "86,667"
+                },
+                {
+                    "Line": "0"
+                },
+                {
+                    "Line": "86,667"
+                },
+                {
+                    "Line": "0 111454"
+                },
+                {
+                    "Line": "86,664"
+                },
+                {
+                    "Line": "0"
+                },
+                {
+                    "Line": "0"
+                },
+                {
+                    "Line": "0"
+                },
+                {
+                    "Line": "111455"
+                },
+                {
+                    "Line": "86,666. 04/04/2006"
+                },
+                {
+                    "Line": "3"
+                },
+                {
+                    "Line": "5 06/12/2005"
+                },
+                {
+                    "Line": "86,667"
+                },
+                {
+                    "Line": "0"
+                },
+                {
+                    "Line": "86,667"
+                },
+                {
+                    "Line": "0 111455"
+                },
+                {
+                    "Line": "86,663"
+                },
+                {
+                    "Line": "0"
+                },
+                {
+                    "Line": "0"
+                },
+                {
+                    "Line": "0"
+                },
+                {
+                    "Line": "111456"
+                },
+                {
+                    "Line": "4. 04/04/2006"
+                },
+                {
+                    "Line": "4"
+                },
+                {
+                    "Line": "Sub Total =>>"
+                },
+                {
+                    "Line": "550,000"
+                },
+                {
+                    "Line": "0"
+                },
+                {
+                    "Line": "550,000"
+                },
+                {
+                    "Line": "0"
+                },
+                {
+                    "Line": "550,000"
+                },
+                {
+                    "Line": "Grand Total =>>"
+                },
+                {
+                    "Line": "550,000"
+                },
+                {
+                    "Line": "0"
+                },
+                {
+                    "Line": "550,000"
+                },
+                {
+                    "Line": "0"
+                },
+                {
+                    "Line": "550,000"
+                },
+                {
+                    "Line": "Id No"
+                },
+                {
+                    "Line": "Member Name"
+                },
+                {
+                    "Line": "S/D/W"
+                },
+                {
+                    "Line": "Father/Husband Name"
+                },
+                {
+                    "Line": "Transfer Date"
+                },
+                {
+                    "Line": "Transfer Charges"
+                },
+                {
+                    "Line": "34101-3592499-4"
+                },
+                {
+                    "Line": "Mrs. Shamim Akhtar"
+                },
+                {
+                    "Line": "S/O"
+                },
+                {
+                    "Line": "Mr Shoukat Ali"
+                },
+                {
+                    "Line": "26/05/2008"
+                },
+                {
+                    "Line": ".00"
+                },
+                {
+                    "Line": "34101-9159398-2"
+                },
+                {
+                    "Line": "Mrs. Najma Shahbaz"
+                },
+                {
+                    "Line": "S/O"
+                },
+                {
+                    "Line": "Muhammad Shahbaz"
+                },
+                {
+                    "Line": "08/07/2014"
+                },
+                {
+                    "Line": ",00"
+                },
+                {
+                    "Line": "S/O"
+                },
+                {
+                    "Line": "24/03/2019"
+                },
+                {
+                    "Line": "95,000.00"
+                },
+                {
+                    "Line": "34101-0489371-7"
+                },
+                {
+                    "Line": "Abdul kayoum Bhatti"
+                },
+                {
+                    "Line": "ismail"
+                },
+                {
+                    "Line": "34101-2353147-8"
+                },
+                {
+                    "Line": "Zahra Mehmood Bajwa"
+                },
+                {
+                    "Line": "W/O"
+                },
+                {
+                    "Line": "Mehmood Ashraf Bajwa"
+                },
+                {
+                    "Line": "09/09/2021"
+                },
+                {
+                    "Line": "00"
+                },
+                {
+                    "Line": "S/O"
+                },
+                {
+                    "Line": "Hassan-Hussain-Mustaan S/O Mehmood A"
+                },
+                {
+                    "Line": "07/10/2021"
+                },
+                {
+                    "Line": "00"
+                },
+                {
+                    "Line": "34101-9020019-5"
+                },
+                {
+                    "Line": "Mehmood AsfrafS/O M Ashraf-AminaW/O"
+                }
+            ],
+            "Page": 1
+        }
+    ],
+    "Pages": 1,
+    "Tables": [
+        {
+            "CharacterConfidence": 98.33,
+            "LayoutConfidence": 65.98,
+            "Page": 1,
+            "TableJson": {
+                "0": {
+                    "0": "Registration No:",
+                    "1": "535"
+                },
+                "1": {
+                    "0": "CNIC No.",
+                    "1": "34101-4790134-9"
+                },
+                "2": {
+                    "0": "Member Name:",
+                    "1": "1. Hafiz Shahzada Hassan Bashir"
+                },
+                "3": {
+                    "0": "S/O :",
+                    "1": "Bashir Ahmad"
+                },
+                "4": {
+                    "0": "Address:",
+                    "1": "Mohallah Shahzada Town Jandyala Bagh Wala Gujranwala"
+                }
+            }
+        },
+        {
+            "CharacterConfidence": 98.65,
+            "LayoutConfidence": 36.22,
+            "Page": 1,
+            "TableJson": {
+                "0": {
+                    "0": "Block Name:",
+                    "1": "Block C"
+                },
+                "1": {
+                    "0": "HOUSE No.:",
+                    "1": "131"
+                },
+                "2": {
+                    "0": "Type:",
+                    "1": "-Normal Plot"
+                },
+                "3": {
+                    "0": "Dimension:",
+                    "1": "34.8X65"
+                }
+            }
+        },
+        {
+            "CharacterConfidence": 97.39,
+            "LayoutConfidence": 49.42,
+            "Page": 1,
+            "TableJson": {
+                "0": {
+                    "0": "Payment Code:",
+                    "1": "10-MARLA PLOT PHASE-II"
+                },
+                "1": {
+                    "0": "Street # :",
+                    "1": ""
+                },
+                "2": {
+                    "0": "Category & Size:",
+                    "1": "10-M 10.00"
+                },
+                "3": {
+                    "0": "Booking Date:",
+                    "1": "06/01/2005"
+                }
+            }
+        },
+        {
+            "CharacterConfidence": 94.66,
+            "LayoutConfidence": 88.47,
+            "Page": 1,
+            "TableJson": {
+                "0": {
+                    "0": "Net Price :",
+                    "1": "550,000.00"
+                },
+                "1": {
+                    "0": "PDC Amount :",
+                    "1": "0,00"
+                },
+                "2": {
+                    "0": "Total Received:",
+                    "1": "100.00 %"
+                }
+            }
+        },
+        {
+            "CharacterConfidence": 94.29,
+            "LayoutConfidence": 91.98,
+            "Page": 1,
+            "TableJson": {
+                "0": {
+                    "0": "Receive Amount :",
+                    "1": "550,000.00"
+                },
+                "1": {
+                    "0": "Hold Amount :",
+                    "1": "0,00"
+                }
+            }
+        },
+        {
+            "CharacterConfidence": 89.27,
+            "LayoutConfidence": 36.16,
+            "Page": 1,
+            "TableJson": {
+                "0": {
+                    "0": "Outstanding Amt.",
+                    "1": "0.00"
+                },
+                "1": {
+                    "0": "Over Due Amt:",
+                    "1": "0,00"
+                }
+            }
+        },
+        {
+            "CharacterConfidence": 97.13,
+            "LayoutConfidence": 82.77,
+            "Page": 1,
+            "TableJson": {
+                "0": {
+                    "0": "Payment Desc",
+                    "1": "Inst #",
+                    "10": "Date",
+                    "11": "Adj. Amt.",
+                    "2": "Due Date",
+                    "3": "",
+                    "4": "Due Amt.",
+                    "5": "Rebat Amt",
+                    "6": "Recv. Amt.",
+                    "7": "O.S. Amt",
+                    "8": "Recp. No.",
+                    "9": "Recp. Amt."
+                },
+                "1": {
+                    "0": "Booking",
+                    "1": "",
+                    "10": "13/04/2005",
+                    "11": "116,666",
+                    "2": "06/01/2005",
+                    "3": "",
+                    "4": "116,666",
+                    "5": "0",
+                    "6": "116,666",
+                    "7": "0",
+                    "8": "111450",
+                    "9": "116,666."
+                },
+                "10": {
+                    "0": "",
+                    "1": "5",
+                    "10": "",
+                    "11": "86,663",
+                    "2": "06/12/2005",
+                    "3": "",
+                    "4": "86,667",
+                    "5": "0",
+                    "6": "86,667",
+                    "7": "0",
+                    "8": "111455",
+                    "9": ""
+                },
+                "11": {
+                    "0": "",
+                    "1": "",
+                    "10": "04/04/2006",
+                    "11": "4",
+                    "2": "",
+                    "3": "",
+                    "4": "0",
+                    "5": "0",
+                    "6": "0",
+                    "7": "",
+                    "8": "111456",
+                    "9": "4."
+                },
+                "12": {
+                    "0": "",
+                    "1": "Sub Total",
+                    "10": "",
+                    "11": "550,000",
+                    "2": "=>>",
+                    "3": "",
+                    "4": "550,000",
+                    "5": "0",
+                    "6": "550,000",
+                    "7": "0",
+                    "8": "",
+                    "9": ""
+                },
+                "13": {
+                    "0": "",
+                    "1": "Grand Total",
+                    "10": "",
+                    "11": "550,000",
+                    "2": "=>>",
+                    "3": "",
+                    "4": "550,000",
+                    "5": "0",
+                    "6": "550,000",
+                    "7": "0",
+                    "8": "",
+                    "9": ""
+                },
+                "2": {
+                    "0": "Installment",
+                    "1": "1",
+                    "10": "13/04/2005",
+                    "11": "86,666",
+                    "2": "06/04/2005",
+                    "3": "",
+                    "4": "86,667",
+                    "5": "0",
+                    "6": "86,667",
+                    "7": "0",
+                    "8": "111451",
+                    "9": "86,666."
+                },
+                "3": {
+                    "0": "",
+                    "1": "",
+                    "10": "05/07/2005",
+                    "11": "1",
+                    "2": "",
+                    "3": "",
+                    "4": "0",
+                    "5": "0",
+                    "6": "0",
+                    "7": "",
+                    "8": "111452",
+                    "9": "86,666."
+                },
+                "4": {
+                    "0": "",
+                    "1": "2",
+                    "10": "",
+                    "11": "86,665",
+                    "2": "06/06/2005",
+                    "3": "",
+                    "4": "86,667",
+                    "5": "0",
+                    "6": "86,667",
+                    "7": "0",
+                    "8": "111452",
+                    "9": ""
+                },
+                "5": {
+                    "0": "",
+                    "1": "",
+                    "10": "05/10/2005",
+                    "11": "2",
+                    "2": "",
+                    "3": "",
+                    "4": "0",
+                    "5": "0",
+                    "6": "0",
+                    "7": "",
+                    "8": "111453",
+                    "9": "86,666."
+                },
+                "6": {
+                    "0": "",
+                    "1": "3",
+                    "10": "",
+                    "11": "86,664",
+                    "2": "06/08/2005",
+                    "3": "",
+                    "4": "86,667",
+                    "5": "0",
+                    "6": "86,667",
+                    "7": "0",
+                    "8": "111453",
+                    "9": ""
+                },
+                "7": {
+                    "0": "",
+                    "1": "",
+                    "10": "06/01/2006",
+                    "11": "2",
+                    "2": "",
+                    "3": "",
+                    "4": "0",
+                    "5": "0",
+                    "6": "0",
+                    "7": "",
+                    "8": "111454",
+                    "9": "86,666."
+                },
+                "8": {
+                    "0": "",
+                    "1": "4",
+                    "10": "",
+                    "11": "86,664",
+                    "2": "06/10/2005",
+                    "3": "",
+                    "4": "86,667",
+                    "5": "0",
+                    "6": "86,667",
+                    "7": "0",
+                    "8": "111454",
+                    "9": ""
+                },
+                "9": {
+                    "0": "",
+                    "1": "",
+                    "10": "04/04/2006",
+                    "11": "3",
+                    "2": "",
+                    "3": "",
+                    "4": "0",
+                    "5": "0",
+                    "6": "0",
+                    "7": "",
+                    "8": "111455",
+                    "9": "86,666."
+                }
+            }
+        },
+        {
+            "CharacterConfidence": 96.49,
+            "LayoutConfidence": 88.59,
+            "Page": 1,
+            "TableJson": {
+                "0": {
+                    "0": "Id No",
+                    "1": "Member Name",
+                    "2": "S/D/W",
+                    "3": "Father/Husband Name",
+                    "4": "Transfer Date",
+                    "5": "Transfer Charges"
+                },
+                "1": {
+                    "0": "34101-3592499-4",
+                    "1": "Mrs. Shamim Akhtar",
+                    "2": "S/O",
+                    "3": "Mr Shoukat Ali",
+                    "4": "26/05/2008",
+                    "5": ".00"
+                },
+                "2": {
+                    "0": "34101-9159398-2",
+                    "1": "Mrs. Najma Shahbaz",
+                    "2": "S/O",
+                    "3": "Muhammad Shahbaz",
+                    "4": "08/07/2014",
+                    "5": ",00"
+                },
+                "3": {
+                    "0": "34101-0489371-7",
+                    "1": "Abdul kayoum Bhatti",
+                    "2": "S/O",
+                    "3": "ismail",
+                    "4": "24/03/2019",
+                    "5": "95,000.00"
+                },
+                "4": {
+                    "0": "34101-2353147-8",
+                    "1": "Zahra Mehmood Bajwa",
+                    "2": "W/O",
+                    "3": "Mehmood Ashraf Bajwa",
+                    "4": "09/09/2021",
+                    "5": "00"
+                },
+                "5": {
+                    "0": "34101-9020019-5",
+                    "1": "Mehmood AsfrafS/O M Ashraf-AminaW/O",
+                    "2": "S/O",
+                    "3": "Hassan-Hussain-Mustaan S/O Mehmood A",
+                    "4": "07/10/2021",
+                    "5": "00"
+                }
+            }
+        }
+    ]
+}
