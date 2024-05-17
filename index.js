@@ -75,7 +75,8 @@ async function main() {
             }
             // return;
 
-
+            // let {data} = await Table.findOne({ _id: "6645ee0c7c35b04db10cacc2" });
+            // plotArray.push(data)
 
 
             for (const plot of plotArray) {

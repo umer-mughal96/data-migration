@@ -194,7 +194,7 @@ const bookingAndInstallmants = (obj) => {
             }
         }
 
-        if (obj[key]['1'] == 'Sub Total') {
+        if (obj[key]['1'] == 'Sub Total =>>' || obj[key]['1'] == 'Sub Total') {
             subTotal.dueAmount = obj[key]['4']
             subTotal.rebatAmount = obj[key]['5']
             subTotal.receieveAmount = obj[key]['6']
@@ -202,7 +202,7 @@ const bookingAndInstallmants = (obj) => {
             subTotal.adjustmentAmount = obj[key]['11']
             schema.summary.subTotal = subTotal;
         }
-        if (obj[key]['1'] == 'Grand Total') {
+        if (obj[key]['1'] == 'Grand Total =>>' || obj[key]['1'] == 'Grand Total') {
             grandTotal.dueAmount = obj[key]['4']
             grandTotal.rebatAmount = obj[key]['5']
             grandTotal.receieveAmount = obj[key]['6']
