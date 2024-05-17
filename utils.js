@@ -20,23 +20,14 @@ const schema = {
     holdAmount: "",
     outstandingAmount: "",
     overDueAmount: "",
+    mobile: "",
     summary: {
         payment: [],
         installments: [
         ],
         subTotal: {
-            dueAmount: "",
-            rebatAmount: "",
-            receieveAmount: "",
-            osAmount: "",
-            adjustmentAmount: ""
         },
         grandTotal: {
-            dueAmount: "",
-            rebatAmount: "",
-            receieveAmount: "",
-            osAmount: "",
-            adjustmentAmount: ""
         }
     },
     history: [],
@@ -112,48 +103,48 @@ const paymentCode = (obj) => {
 
     })
 }
-const netPrice = (obj) => {
-    Object.keys(obj).forEach(key => {
-        Object.keys(obj[key]).forEach(nestedKey => {
-            if (nestedKey == 1 && obj[key][nestedKey - 1] == "Net Price :") {
-                schema.netPrice = obj[key][nestedKey];
-            }
-            if (nestedKey == 1 && obj[key][nestedKey - 1] == "PDC Amount :") {
-                schema.pdcAmount = obj[key][nestedKey];
-            }
-            if (nestedKey == 1 && obj[key][nestedKey - 1] == "Total Received:") {
-                schema.totalReceived = obj[key][nestedKey];
-            }
-        });
+// const netPrice = (obj) => {
+//     Object.keys(obj).forEach(key => {
+//         Object.keys(obj[key]).forEach(nestedKey => {
+//             if (nestedKey == 1 && obj[key][nestedKey - 1] == "Net Price :") {
+//                 schema.netPrice = obj[key][nestedKey];
+//             }
+//             if (nestedKey == 1 && obj[key][nestedKey - 1] == "PDC Amount :") {
+//                 schema.pdcAmount = obj[key][nestedKey];
+//             }
+//             if (nestedKey == 1 && obj[key][nestedKey - 1] == "Total Received:") {
+//                 schema.totalReceived = obj[key][nestedKey];
+//             }
+//         });
 
-    })
-}
-const receiveAmount = (obj) => {
-    Object.keys(obj).forEach(key => {
-        Object.keys(obj[key]).forEach(nestedKey => {
-            if (nestedKey == 1 && obj[key][nestedKey - 1] == "Receive Amount :") {
-                schema.receiveAmount = obj[key][nestedKey];
-            }
-            if (nestedKey == 1 && obj[key][nestedKey - 1] == "Hold Amount :") {
-                schema.holdAmount = obj[key][nestedKey];
-            }
-        });
+//     })
+// }
+// const receiveAmount = (obj) => {
+//     Object.keys(obj).forEach(key => {
+//         Object.keys(obj[key]).forEach(nestedKey => {
+//             if (nestedKey == 1 && obj[key][nestedKey - 1] == "Receive Amount :") {
+//                 schema.receiveAmount = obj[key][nestedKey];
+//             }
+//             if (nestedKey == 1 && obj[key][nestedKey - 1] == "Hold Amount :") {
+//                 schema.holdAmount = obj[key][nestedKey];
+//             }
+//         });
 
-    })
-}
-const outstandingAmount = (obj) => {
-    Object.keys(obj).forEach(key => {
-        Object.keys(obj[key]).forEach(nestedKey => {
-            if (nestedKey == 1 && obj[key][nestedKey - 1] == "Outstanding Amt.") {
-                schema.outstandingAmount = obj[key][nestedKey];
-            }
-            if (nestedKey == 1 && obj[key][nestedKey - 1] == "Over Due Amt:") {
-                schema.overDueAmount = obj[key][nestedKey];
-            }
-        });
+//     })
+// }
+// const outstandingAmount = (obj) => {
+//     Object.keys(obj).forEach(key => {
+//         Object.keys(obj[key]).forEach(nestedKey => {
+//             if (nestedKey == 1 && obj[key][nestedKey - 1] == "Outstanding Amt.") {
+//                 schema.outstandingAmount = obj[key][nestedKey];
+//             }
+//             if (nestedKey == 1 && obj[key][nestedKey - 1] == "Over Due Amt:") {
+//                 schema.overDueAmount = obj[key][nestedKey];
+//             }
+//         });
 
-    })
-}
+//     })
+// }
 let bookingKey = 1;
 const bookingAndInstallmants = (obj) => {
     Object.keys(obj).forEach(key => {
@@ -168,7 +159,7 @@ const bookingAndInstallmants = (obj) => {
             booking.rebatAmount = obj[key]['5']
             booking.receieveAmount = obj[key]['6']
             booking.osAmount = obj[key]['7']
-            booking.receipNo = obj[key]['8']
+            booking.receiptNo = obj[key]['8']
             booking.receiptAmount = obj[key]['9']
             booking.date = obj[key]['10']
             booking.adjustmentAmount = obj[key]['11']
@@ -186,7 +177,7 @@ const bookingAndInstallmants = (obj) => {
                 installment.rebatAmount = obj[key]['5']
                 installment.receieveAmount = obj[key]['6']
                 installment.osAmount = obj[key]['7']
-                installment.receipNo = obj[key]['8']
+                installment.receiptNo = obj[key]['8']
                 installment.receiptAmount = obj[key]['9']
                 installment.date = obj[key]['10']
                 installment.adjustmentAmount = obj[key]['11']
@@ -194,22 +185,22 @@ const bookingAndInstallmants = (obj) => {
             }
         }
 
-        if (obj[key]['1'] == 'Sub Total =>>' || obj[key]['1'] == 'Sub Total') {
-            subTotal.dueAmount = obj[key]['4']
-            subTotal.rebatAmount = obj[key]['5']
-            subTotal.receieveAmount = obj[key]['6']
-            subTotal.osAmount = obj[key]['7']
-            subTotal.adjustmentAmount = obj[key]['11']
-            schema.summary.subTotal = subTotal;
-        }
-        if (obj[key]['1'] == 'Grand Total =>>' || obj[key]['1'] == 'Grand Total') {
-            grandTotal.dueAmount = obj[key]['4']
-            grandTotal.rebatAmount = obj[key]['5']
-            grandTotal.receieveAmount = obj[key]['6']
-            grandTotal.osAmount = obj[key]['7']
-            grandTotal.adjustmentAmount = obj[key]['11']
-            schema.summary.grandTotal = grandTotal;
-        }
+        // if (obj[key]['1'] == 'Sub Total =>>' || obj[key]['1'] == 'Sub Total') {
+        //     subTotal.dueAmount = obj[key]['4']
+        //     subTotal.rebatAmount = obj[key]['5']
+        //     subTotal.receieveAmount = obj[key]['6']
+        //     subTotal.osAmount = obj[key]['7']
+        //     subTotal.adjustmentAmount = obj[key]['11']
+        //     schema.summary.subTotal = subTotal;
+        // }
+        // if (obj[key]['1'] == 'Grand Total =>>' || obj[key]['1'] == 'Grand Total') {
+        //     grandTotal.dueAmount = obj[key]['4']
+        //     grandTotal.rebatAmount = obj[key]['5']
+        //     grandTotal.receieveAmount = obj[key]['6']
+        //     grandTotal.osAmount = obj[key]['7']
+        //     grandTotal.adjustmentAmount = obj[key]['11']
+        //     schema.summary.grandTotal = grandTotal;
+        // }
 
 
     })
@@ -241,4 +232,4 @@ const alerts = (obj) => {
     })
 }
 
-module.exports = { alerts, history, bookingAndInstallmants, outstandingAmount, receiveAmount, netPrice, paymentCode, plotInformation, memberInformation, schema }
+module.exports = { alerts, history, bookingAndInstallmants, paymentCode, plotInformation, memberInformation, schema }

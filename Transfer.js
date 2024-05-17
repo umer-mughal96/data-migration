@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const HistorySchema = mongoose.Schema(
+const TransferSchema = mongoose.Schema(
     {
         currentOwner: {
             type: Boolean,
@@ -34,6 +34,9 @@ const HistorySchema = mongoose.Schema(
         address: {
             type: String
         },
+        mobile: {
+            type: String
+        },
     },
     {
         timestamps: true,
@@ -43,6 +46,6 @@ const HistorySchema = mongoose.Schema(
 
 
 
-const History = mongoose.model('History', HistorySchema);
+const Transfer = mongoose.model('Transfer', TransferSchema);
 
-module.exports = History;
+module.exports = Transfer;

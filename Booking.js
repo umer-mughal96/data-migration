@@ -21,7 +21,7 @@ const BookingSchema = mongoose.Schema(
         osAmount: {
             type: String
         },
-        receipNo: {
+        receiptNo: {
             type: String
         },
         receiptAmount: {
