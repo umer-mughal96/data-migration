@@ -157,7 +157,7 @@ const bookingAndInstallmants = (obj) => {
             booking.dueDate = obj[key]['2']
             booking.dueAmount = obj[key]['4']
             booking.rebatAmount = obj[key]['5']
-            booking.receieveAmount = obj[key]['6']
+            booking.receiveAmount = obj[key]['6']
             booking.osAmount = obj[key]['7']
             booking.receiptNo = obj[key]['8']
             booking.receiptAmount = obj[key]['9']
@@ -175,7 +175,7 @@ const bookingAndInstallmants = (obj) => {
                 installment.dueDate = obj[key]['2']
                 installment.dueAmount = obj[key]['4']
                 installment.rebatAmount = obj[key]['5']
-                installment.receieveAmount = obj[key]['6']
+                installment.receiveAmount = obj[key]['6']
                 installment.osAmount = obj[key]['7']
                 installment.receiptNo = obj[key]['8']
                 installment.receiptAmount = obj[key]['9']
@@ -211,7 +211,7 @@ const history = (obj) => {
     Object.keys(obj).forEach(key => {
         let history = {};
         if (key > 0) {
-            history.idNo = obj[key]['1']
+            history.cnic = obj[key]['1']
             history.name = obj[key]['2']
             history.sdw = obj[key]['3']
             history.fatherHusbandName = obj[key]['4']

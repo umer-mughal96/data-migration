@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const TransferSchema = mongoose.Schema(
+const changeOfMemberShipSchema = mongoose.Schema(
     {
         currentOwner: {
             type: Boolean,
@@ -46,6 +46,6 @@ const TransferSchema = mongoose.Schema(
 
 
 
-const Transfer = mongoose.model('Transfer', TransferSchema);
+const ChangeOfMemberShipSchema = mongoose.model('Com', changeOfMemberShipSchema);
 
-module.exports = Transfer;
+module.exports = ChangeOfMemberShipSchema;
